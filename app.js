@@ -24,6 +24,9 @@
     app.use(express.urlencoded({extended:true}));
     app.use(methodOverride("_method"));
     app.engine("ejs",ejsMate);
+    app.use(express.static(path.join(__dirname, "public")));
+
+
 
     app.get("/", (req,res) =>{
         res.send("I am root");
