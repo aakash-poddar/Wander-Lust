@@ -82,4 +82,11 @@ body{
 .add-button{
     background-color: #fe424d !important;
 }
+.edit-button{
+    background-color: #fe424d !important;
 
+}
+
+.show-img{
+    height: 30vh;
+}
